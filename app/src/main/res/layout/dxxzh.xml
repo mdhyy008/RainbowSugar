@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:hint="预替换文本"
+		android:singleLine="true"
+		android:id="@+id/dxxzhEditText1"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<EditText
+			android:layout_width="100dp"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:hint="替换前字符"
+			android:singleLine="true"
+			android:id="@+id/dxxzhEditText2"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="替换为"/>
+
+		<EditText
+			android:layout_width="100dp"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:hint="替换后字符"
+			android:singleLine="true"
+			android:id="@+id/dxxzhEditText3"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="替换"
+		android:layout_gravity="center"
+		android:id="@+id/dxxzhButton1"
+		android:background="#FF0155"
+		android:textColor="#FFFFFF"
+		android:onClick="th"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:hint="输出结果"
+		android:singleLine="true"
+		android:id="@+id/dxxzhEditText4"/>
+
+</LinearLayout>
+

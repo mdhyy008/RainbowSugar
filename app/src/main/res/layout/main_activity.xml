@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		xmlns:tools="http://schemas.android.com/tools"
+		android:id="@+id/LinearLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		tools:context=".MainActivity"
+		android:background="#3F51B5">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="设备信息"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="sbxx"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="SELinux"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="selinux"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="物理键灯光"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="led"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="清除系统log"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="dellog"
+				android:id="@+id/mainlog"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="机型修改"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="jxxg"
+				android:id="@+id/mode"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="导航栏开关"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="dhlkg"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="多窗口模式"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="dckms"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="百度识图"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_c"
+				android:onClick="bdst"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="文本操作"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_c"
+				android:onClick="wbcz"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="抢红包"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_xp"
+				android:onClick="xp_1"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="动画速度调控"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="dhsdtk"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Doze模式"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="doze"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="UI界面调控"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="ui"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="高级重启"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="gjcq"
+				android:id="@+id/reb"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="电池操作"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="power"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Shell执行"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="shell"
+				android:id="@+id/shell"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="叹号杀手"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_root"
+				android:onClick="thss"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="应用管理"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_c"
+				android:onClick="apps"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="刷新网络"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_c"
+				android:onClick="sxwl"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="防撤回"
+				android:gravity="center"
+				android:padding="10dp"
+				android:layout_margin="20dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/shape_xp"
+				android:onClick="xp_2"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>
+

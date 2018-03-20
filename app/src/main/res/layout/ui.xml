@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:inputType="number"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:id="@+id/uiEditText1"
+		android:hint="DPI建议修改为390"
+		android:gravity="center"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="修改"
+		android:onClick="xg1"
+		android:background="#FB1360"
+		android:textColor="#FFFFFF"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<EditText
+			android:layout_width="100dp"
+			android:inputType="number"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:id="@+id/uiEditText2"
+			android:hint="宽:1080"
+			android:gravity="center"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:text="×"
+			android:gravity="center"/>
+
+		<EditText
+			android:layout_width="100dp"
+			android:inputType="number"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:id="@+id/uiEditText3"
+			android:hint="高:1920"
+			android:gravity="center"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="修改"
+		android:onClick="xg2"
+		android:background="#FA0A5A"
+		android:textColor="#FFFFFF"/>
+
+</LinearLayout>
+

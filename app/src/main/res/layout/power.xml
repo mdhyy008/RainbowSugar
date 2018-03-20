@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="充电状态伪装"
+		android:background="#330096"
+		android:textColor="#FFFFFF"
+		android:id="@+id/powerButton2"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="伪装正在充电"
+			android:layout_weight="1.0"
+			android:background="#009688"
+			android:textColor="#FFFFFF"
+			android:id="@+id/powerButton3"
+			android:onClick="p_on"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="伪装未充电"
+			android:layout_weight="1.0"
+			android:background="#009688"
+			android:textColor="#FFFFFF"
+			android:id="@+id/powerButton4"
+			android:onClick="p_off"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="电量值修改"
+		android:background="#2C0096"
+		android:textColor="#FFFFFF"
+		android:id="@+id/powerButton5"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:inputType="number"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:gravity="center"
+		android:hint="电量值?"
+		android:background="#009688"
+		android:textColor="#FFFFFF"
+		android:id="@+id/powerEditText1"
+		android:padding="10dp"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="修改电量值为null"
+		android:background="#009688"
+		android:textColor="#FFFFFF"
+		android:id="@+id/powerButton6"
+		android:onClick="p_xg"/>
+
+</LinearLayout>
+

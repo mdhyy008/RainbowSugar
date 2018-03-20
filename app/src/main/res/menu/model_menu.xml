@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/vivo"
+        android:title="vivo X20"/>
+    <item
+        android:id="@+id/oppo11"
+        android:title="oppo R11"/>
+	<item
+        android:id="@+id/oppo15"
+        android:title="oppo R15"/>
+	<item
+        android:id="@+id/recover"
+        android:title="恢复上一次备份"/>
+	
+	
+</menu>
